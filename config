@@ -28,6 +28,9 @@ bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@
 bindsym $mod+Return exec alacritty
 bindsym $mod+d exec "dmenu_run -nf '#ffffff' -nb '#000000' -sb '#1e1e2e' -sf '#ffffff' -fn 'UbuntuMono Nerd Font-11'"
 bindsym $mod+p exec qutebrowser
+
+bindsym $mod+s exec scrot -s
+
 bindsym $mod+q kill
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart

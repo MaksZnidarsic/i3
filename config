@@ -100,6 +100,8 @@ client.urgent           #f38ba8 #f38ba8 #ffffff #f38ba8   #f38ba8
 client.placeholder      #000000 #000000 #ffffff #000000   #000000
 client.background       #ffffff
 
+exec --no-startup-id feh --bg-scale $HOME/.config/i3/hopf-fibration.jpg
+
 #hide title bar
 default_border pixel 1
 default_floating_border pixel 1

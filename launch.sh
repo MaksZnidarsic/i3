@@ -8,4 +8,4 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 1; done
 
 #launch polybar
-polybar main -c $HOME/.config/i3/config.ini
+polybar main -c $HOME/.config/i3/polybar.ini

@@ -42,8 +42,8 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 bindsym $mod+Ctrl+h resize shrink width 5 px or 5 ppt
-bindsym $mod+Ctrl+j resize grow height 5 px or 5 ppt
-bindsym $mod+Ctrl+k resize shrink height 5 px or 5 ppt
+bindsym $mod+Ctrl+j resize shrink height 5 px or 5 ppt
+bindsym $mod+Ctrl+k resize grow height 5 px or 5 ppt
 bindsym $mod+Ctrl+l resize grow width 5 px or 5 ppt
 
 bindsym $mod+f fullscreen toggle
@@ -91,11 +91,11 @@ client.urgent           #ffff99 #ffff99 #ffffff #ffff99   #ffff99
 client.placeholder      #000000 #000000 #ffffff #000000   #000000
 client.background       #ffffff
 
-exec --no-startup-id feh --bg-scale $HOME/.config/i3/faye-pink.png
-
 #hide title bar
 default_border pixel 1
 default_floating_border pixel 1
 for_window [class="^.*"] border pixel 1
 
-exec_always --no-startup-id $HOME/.config/i3/launch.sh
+
+exec_always --no-startup-id feh --bg-scale $HOME/.config/i3/wallpapers/faye.png
+exec_always --no-startup-id $HOME/.config/i3/polybar/launch.sh

@@ -21,7 +21,7 @@ bindsym $mod+o exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym $mod+m exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 #bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
-bindsym $mod+d exec --no-startup-id "dmenu_run -nf '#ffffff' -nb '#000000' -sb '#1e1e2e' -sf '#ffffff' -fn 'UbuntuMono Nerd Font-11'"
+bindsym $mod+d exec --no-startup-id "dmenu_run -nf '#ffffff' -nb '#000000' -sb '#ffc5d3' -sf '#000000' -fn 'UbuntuMono Nerd Font-11'"
 bindsym $mod+s exec scrot './screenshots/%F-%H%M%S_$wx$h.png' -s
 
 bindsym $mod+Return exec alacritty
